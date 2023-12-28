@@ -7,7 +7,7 @@ FROM python:3.11-alpine
 ENV PYTHONUNBUFFERED 1
 
 # create root directory for our project in the container
-RUN mkdir /wafi-devops-interview
+RUN mkdir /Wafi-devops-interview
 
 # Set the working directory to /music_service
 WORKDIR /Wafi-devops-interview
